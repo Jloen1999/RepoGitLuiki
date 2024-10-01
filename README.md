@@ -68,3 +68,7 @@ graph TD
     style D fill:#ffc,stroke:#333,stroke-width:2px;
     style E fill:#ffccbb,stroke:#333,stroke-width:2px;
 ```
+
+# Enlaces de Gemini  
+
+[Gemini](https://g.co/gemini/share/018e821a2eb5)
