@@ -37,3 +37,34 @@ El objetivo de esta aplicación web es proporcionar una plataforma donde los usu
 - El usuario podrá cambiar el color de fondo de la página web (oscuro, claro).
 - El usuario podrá elegir el idioma de la página web.
 - El usuario podrá recibir notificaciones sobre su progreso y las medallas o recompensas que vaya obteniendo.
+
+```mermaid
+graph TD
+    A[Funcionalidades y Requisitos de ChallengeApp] --> B[Registro e Inicio de Sesión]
+    B --> B1[Registro con: Nombre de Usuario, Correo Electrónico, Contraseña]
+    B --> B2[Iniciar Sesión con: Correo Electrónico y Contraseña]
+
+    A --> C[Gestión de Retos]
+    C --> C1[Crear nuevos retos]
+    C1 --> C1a[Indicar nivel de complejidad: Simple o Complejo]
+    C1 --> C1b[Indicar tipo de reto: Público o Privado]
+    C --> C2[Gestionar retos creados]
+    C --> C3[Unirse a retos]
+    C --> C4[Marcar progreso en los retos]
+    C --> C5[Acceder a historial de retos completados y creados]
+
+    A --> D[Interacción Social]
+    D --> D1[Hacer comentarios en retos]
+    D --> D2[Leer comentarios de otros usuarios]
+    D --> D3[Añadir amigos para retos privados]
+    
+    A --> E[Gamificación]
+    E --> E1[Recibir recompensas e insignias]
+    E --> E2[Ver estadísticas del progreso en retos]
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px;
+    style B fill:#bbf,stroke:#333,stroke-width:2px;
+    style C fill:#cfc,stroke:#333,stroke-width:2px;
+    style D fill:#ffc,stroke:#333,stroke-width:2px;
+    style E fill:#ffccbb,stroke:#333,stroke-width:2px;
+```
