@@ -6,7 +6,7 @@
 
 ## Integrantes
 
-- Alfredo Mituy Okenve Obiang DNI. Foto (tipo carnet)
+- Alfredo Mituy Okenve Obiang
 - José Luis Obiang Ela Nanguang
 
 ## Eslogan
@@ -75,4 +75,4 @@ graph TD
 
 # Enlaces de Gemini
 
-[Gemini](https://g.co/gemini/share/018e821a2eb5)
+[Gemini(Markdown & Github)](https://g.co/gemini/share/018e821a2eb5)
